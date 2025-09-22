@@ -26,7 +26,7 @@ public class OrderService {
         }
 
         db.saveOrder(userId, productId, quantity);
-        System.out.println("Order placed: user=" + userId + ", product=" + productId + ", qty=" + quantity); // BUG 6
+        System.out.println("Order placed: user=" + userId + ", product=" + productId + ", qty=" + quantity);
 
         return "SUCCESS";
     }
